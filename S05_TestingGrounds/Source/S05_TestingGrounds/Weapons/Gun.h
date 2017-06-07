@@ -20,6 +20,7 @@ class S05_TESTINGGROUNDS_API AGun : public AActor
 	
 public:	
 	/** Fires a projectile. */
+	UFUNCTION(Blueprintcallable, Category = "Input")
 	void OnFire();
 
 	// Sets default values for this actor's properties
